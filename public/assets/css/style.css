@@ -1,0 +1,18 @@
+:root { --ink:#1b2a26; --pine:#14342e; --turmeric:#e0a21b; --chili:#b7352a; --paper:#f5f6f2; }
+body { background: var(--paper); color: var(--ink); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+h1, h2, h3, .navbar-brand, .dish-name { font-family: Georgia, "Times New Roman", serif; }
+.navbar-uts { background: var(--pine); }
+.navbar-uts .nav-link, .navbar-uts .navbar-brand { color: #fff; }
+.navbar-uts .nav-link.active { color: var(--turmeric); }
+.hero { background: var(--pine); color: #fff; padding: 4.5rem 0; border-bottom: 6px solid var(--turmeric); }
+.hero h1 { font-size: clamp(2.2rem, 6vw, 3.8rem); line-height: 1.1; }
+.hero p { max-width: 38rem; color: #d6e0dc; }
+.hero .meta { font-size: .9rem; color: #b8c8c2; }
+.dish-card { border: 1px solid #dde1da; border-radius: 6px; overflow: hidden; background: #fff; height: 100%; }
+.dish-card img { aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
+.dish-region { color: var(--chili); font-size: .85rem; font-weight: 600; }
+.dish-price { font-weight: 700; color: var(--pine); }
+.btn-detail { background: var(--pine); color: #fff; }
+.btn-detail:hover { background: var(--turmeric); color: var(--ink); }
+.detail-img { width: 100%; border-radius: 6px; }
+.site-footer { background: var(--pine); color: #b8c8c2; padding: 1.5rem 0; margin-top: 4rem; font-size: .9rem; }
